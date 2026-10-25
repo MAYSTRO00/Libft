@@ -6,26 +6,26 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 03:14:48 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/10/25 09:33:31 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/10/25 09:51:17 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
-#define LIBFT_H
+# define LIBFT_H
 
-#include <stddef.h>
+# include <stddef.h>
 
 void	ft_bzero(void *s, size_t n);
 
-int	ft_isalnum(int c);
+int		ft_isalnum(int c);
 
-int	ft_isalpha(int c);
+int		ft_isalpha(int c);
 
-int	ft_isascii(int c);
+int		ft_isascii(int c);
 
-int	ft_isdigit(int c);
+int		ft_isdigit(int c);
 
-int	ft_isprint(int c);
+int		ft_isprint(int c);
 
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 
@@ -35,6 +35,6 @@ void	*ft_memset(void *s, int c, size_t n);
 
 size_t	ft_strlen(const char *s);
 
-size_t ft_strlcpy(char *dst, const char *src, size_t size);
+size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 
 #endif
