@@ -6,9 +6,11 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 20:09:03 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/10/25 20:34:15 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/10/25 20:41:31 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
