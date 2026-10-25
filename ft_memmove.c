@@ -6,11 +6,11 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/24 21:50:43 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/10/25 02:59:00 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/10/25 03:31:29 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

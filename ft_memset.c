@@ -6,11 +6,11 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/23 13:08:25 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/10/23 16:19:27 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/10/25 03:28:41 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memset(void *s, int c, size_t n)
 {

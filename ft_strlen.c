@@ -6,11 +6,11 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/23 12:50:56 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/10/23 13:00:29 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/10/25 03:28:11 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 size_t	ft_strlen(const char *s)
 {
