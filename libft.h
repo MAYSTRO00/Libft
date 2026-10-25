@@ -6,7 +6,7 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 03:14:48 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/10/25 14:21:32 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/10/25 17:05:51 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,8 +37,8 @@ size_t	ft_strlen(const char *s);
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 
-int		ft_toupper(int c);
+size_t	ft_strlcat(char *dst, const char *src, size_t size);
 
-int		ft_tolower(int c);
+char	*ft_strchr(const char *s, int c);
 
 #endif

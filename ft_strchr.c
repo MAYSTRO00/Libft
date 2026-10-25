@@ -6,7 +6,7 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 14:57:46 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/10/25 16:03:55 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/10/25 20:07:01 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,8 @@ char	*ft_strchr(const char *s, int c)
 
 int	main(void)
 {
-	const char s[] = "abbbb";
-	char *v = ft_strchr(s, 0);
+	const char s[] = "aébbb";
+	char *v = ft_strchr(s, 'é');
 	if (v != NULL)
 		printf("%s\n", v);
 	else
