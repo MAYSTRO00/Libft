@@ -6,7 +6,7 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 03:14:48 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/10/25 03:26:52 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/10/25 09:33:31 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n);
 void	*ft_memset(void *s, int c, size_t n);
 
 size_t	ft_strlen(const char *s);
+
+size_t ft_strlcpy(char *dst, const char *src, size_t size);
 
 #endif
