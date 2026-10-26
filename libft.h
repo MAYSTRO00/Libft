@@ -6,7 +6,7 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 03:14:48 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/10/25 20:40:27 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/10/26 14:51:52 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 # define LIBFT_H
 
 # include <stddef.h>
+# include <stdint.h>
+# include <stdlib.h>
 
 void	ft_bzero(void *s, size_t n);
 
@@ -43,6 +45,6 @@ char	*ft_strchr(const char *s, int c);
 
 char	*ft_strrchr(const char *s, int c);
 
-int	ft_strncmp(const char *s1, const char *s2, size_t n);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
 
 #endif
