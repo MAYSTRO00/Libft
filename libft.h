@@ -6,7 +6,7 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 03:14:48 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/10/26 14:51:52 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/11/04 12:30:49 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,5 +46,23 @@ char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
 
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
+
+char	*ft_strnstr(const char *big, const char *little, size_t len);
+
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+
+int		ft_tolower(int c);
+
+int		ft_toupper(int c);
+
+char	*strdup(const char *s);
+
+void	*ft_memchr(const void *s, int c, size_t n);
+
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
+
+int		ft_atoi(const char *nptr);
+
+void	*ft_calloc(size_t nmemb, size_t size);
 
 #endif
