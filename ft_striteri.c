@@ -6,7 +6,7 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/06 15:10:35 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/11/06 15:22:23 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/11/08 21:12:18 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@
 }*/
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
+	size_t	i;
+
 	i = 0;
 	while (s[i])
 	{

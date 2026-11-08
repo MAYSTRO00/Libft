@@ -6,13 +6,13 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 15:05:40 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/10/26 15:12:47 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/11/08 21:29:21 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*strdup(const char *s)
+char	*ft_strdup(const char *s)
 {
 	char	*str;
 	size_t	len;

@@ -6,7 +6,7 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 22:09:35 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/11/08 14:44:22 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/11/08 21:10:57 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 	char	*sstr;
 	size_t	len;
 	size_t	i;
+	size_t	len;
+	size_t	i;
 
 	if (i % 2 == 0 && c >= 'a' && c <= 'z')
 		return (c - 32);
@@ -24,6 +26,10 @@
 }*/
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
+	size_t	i;
+	size_t	len;
+	char	*sstr;
+
 	len = ft_strlen(s);
 	sstr = malloc((len + 1) * sizeof(char));
 	if (!sstr)

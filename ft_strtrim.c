@@ -6,19 +6,19 @@
 /*   By: mohadj-a <mohadj-a@student.42belgium.be>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 13:01:20 by mohadj-a          #+#    #+#             */
-/*   Updated: 2026/11/04 16:33:29 by mohadj-a         ###   ########.fr       */
+/*   Updated: 2026/11/08 21:49:37 by mohadj-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static size_t	get_end(char const *s1, char const *set)
+static size_t	get_end(char const *s1, char const *set, size_t start)
 {
 	size_t	i;
 	size_t	j;
 
 	i = ft_strlen(s1);
-	while (i > 0)
+	while (i > start)
 	{
 		i--;
 		j = 0;
@@ -65,7 +65,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	char	*sstr;
 
 	start = get_start(s1, set);
-	end = get_end(s1, set);
+	end = get_end(s1, set, start);
 	len = end - start;
 	sstr = malloc((len + 1) * sizeof(char));
 	if (!sstr)
