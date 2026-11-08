@@ -10,22 +10,19 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "libft.h"
-
 
 /*static void	transform(unsigned int i, char *c)
 {
+	size_t	i;
+
 	if (i % 2 == 0 && *c >= 'a' && *c <= 'z')
 		*c = *c - 32;
 }*/
-
-void ft_striteri(char *s, void (*f)(unsigned int, char *))
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
-	size_t i;
-
 	i = 0;
-	while(s[i])
+	while (s[i])
 	{
 		f(i, &s[i]);
 		i++;
